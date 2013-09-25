@@ -1,0 +1,110 @@
+body {
+  background: url('../images/bg.png')
+}
+
+.main {
+  width: 700px;
+  margin: 0 auto;
+
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none; 
+}
+
+.ctn {
+  border: solid 1px rgb(107, 104, 104);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(49, 49, 49) inset;
+  background-color: rgba(0,0,0,0.2);
+  padding: 10px 10px 20px 10px;
+}
+
+.game-ctn {
+	margin: 10px 0 0 10px;
+	position: relative;
+}
+
+.game-ctn .total,
+.game-ctn .time {
+  width: 115px;
+  border: solid 2px rgb(209, 209, 209);
+  height: 50px;
+  right: 0;
+  position: absolute;
+  border-right: none;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.game-ctn .total {
+  top: 194px;
+}
+
+.game-ctn .time {
+  top: 262px;
+}
+
+.game-ctn canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.panel {
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+  width: 140px;
+}
+
+.panel a {
+  cursor: pointer;
+  color: silver;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.panel a:hover {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.controls-modal {
+  padding: 50px;
+  position: absolute;
+  background: rgb(70, 70, 70);
+  top: 10%;
+  left: -20px;
+  width: 598px;
+  border: solid 2px white;
+  border-left: none;
+  border-right: none;
+}
+
+.controls-modal img {
+  width: 100%;
+  margin: auto;
+}
+
+.controls-modal a.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+}
+
+h1 {
+  margin: 10px;
+}
+
+h1, h3 {
+  color: white;
+  font-family: 'Rationale', sans-serif;
+}
